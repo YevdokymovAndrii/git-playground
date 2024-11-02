@@ -8,6 +8,11 @@ def congratulate_user():
     print("=============================")
     print(f"your words {guesses}")
 
+def game_over():
+    print("=============================")
+    print("==== You lost! game over ====")
+    print("=============================")
+
 
 def is_game_over():
     return guessed == WORDS_TO_WIN or errors == ERRORS_TO_LOSE
